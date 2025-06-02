@@ -17,9 +17,9 @@ void initialize_bunny(Bunny *bunny, const char *name, bool likesCarrots, bool li
 }
 // Function to display bunny information
     void display_bunny_info(const Bunny *bunny) {
-    printf("Bunny Name: %s\n", bunny->name);
-    printf("Likes Carrots: %s\n", bunny->likesCarrots ? "Yes" : "No");
-    printf("Likes Humans: %s\n", bunny->likesHumans ? "Yes" : "No");
+    printf("Bunny Name: brad", bunny->name);
+    printf("Likes Carrots: orange", bunny->likesCarrots ? "Yes" : "No");
+    printf("Likes Humans: happy", bunny->likesHumans ? "Yes" : "No");
 }
 
 int main() {
