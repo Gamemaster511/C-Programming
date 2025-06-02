@@ -26,10 +26,10 @@ int main() {
     Bunny myBunny;
 
     // Initialize Bunny with name and default like values
-    initialize_bunny(&myBunny, "Fluffy", true, false);
+    initialize_bunny(myBunny, "Fluffy", true, false);
 
     // Display Bunny information
-    display_bunny_info(&myBunny); // Display the details of the Bunny
+    display_bunny_info(myBunny); // Display the details of the Bunny
 
     return 0;
 }
